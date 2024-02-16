@@ -125,7 +125,7 @@ li button {
 .hero {
     display: flex;
     align-items: center;
-    gap: 96px;
+    gap: 8.657%;
     margin-block-start: 67px;
     /* justify-content: space-between; */
 }
@@ -222,28 +222,43 @@ li button {
     color: var(--GREY);
 }
 
-.cmo {
+main {
     margin-block-start: 199px;
+    background-color: var(--DARK-BLUE);
+    height: 100%;
+}
+
+.cmo {
     display: flex;
     background-color: var(--DARK-BLUE);
     padding-inline: 121.49px 125px;
-    padding-block: 88px;
-}
-
-.cmo__images {
     position: relative;
-}
-
-.cmo__images img:nth-child(odd) {
-    display: inline-block;
-    position:absolute
 }
 
 .jl {
     max-width: 359.81px;
     height: auto;
+    position: absolute;
+    top: -45px;
 }
+
+.cmo__right {
+    margin-inline-start: 392.6px;
+}
+
+.cmo__right {
+    display: flex;
+}
+
+/*
+
+.cmo__images :nth-child(3) {
+    width: 13.93%;
+    height: 8.82%;
+}
+
 
 .cmo__text {
     width: 450px;
-}
+} */
+
