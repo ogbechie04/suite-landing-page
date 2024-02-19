@@ -89,6 +89,7 @@ h6 {
 
 body {
   font-family: var(--FF);
+  /* width: 100%; */
 }
 
 .jeremy__small, .landscape {
@@ -226,39 +227,55 @@ main {
     margin-block-start: 199px;
     background-color: var(--DARK-BLUE);
     height: 100%;
+    margin-inline: 167px 164px;
+    border-radius: 15px;
 }
 
 .cmo {
     display: flex;
-    background-color: var(--DARK-BLUE);
+    /* background-color: var(--DARK-BLUE); */
     padding-inline: 121.49px 125px;
     position: relative;
 }
 
 .jl {
     max-width: 359.81px;
-    height: auto;
+    max-height: auto;
     position: absolute;
     top: -45px;
 }
 
 .cmo__right {
     margin-inline-start: 392.6px;
-}
-
-.cmo__right {
     display: flex;
+    gap: 52.75px;
 }
 
-/*
-
-.cmo__images :nth-child(3) {
-    width: 13.93%;
-    height: 8.82%;
+.cmo__right img {
+    max-width: 64.05px;
+    height: 52px;
+    margin-block-start: 161.15px;
 }
-
 
 .cmo__text {
-    width: 450px;
-} */
+    display: flex;
+    flex-direction: column;
+    color: var(--CREAM-WHITE);
+    gap: 40px;
+    max-width: 350px;
+    margin-block: 88px;
+}
 
+.cmo__right h2 {
+    font-size: var(--HL-FS);
+    line-height: var(--HL-LH);
+    letter-spacing: var(--HL-LS);
+    font-weight: 400;
+}
+
+.cmo__right p {
+    font-size: var(--QTE-FS);
+    line-height: var(--QTE-LH);
+    letter-spacing: 0.1px;
+    font-weight: 400;
+}
